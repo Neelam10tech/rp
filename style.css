@@ -1,0 +1,54 @@
+body{
+    background:skyblue;
+}
+
+.myblock{
+    margin:1%;
+    width:23%;
+    float:left;
+    height:100px;
+    padding:45px;
+    text-align:center;
+    background:white;
+    font-size:50px;
+
+}
+
+#header{
+    padding:10px;
+    text-align:center;
+    color:green;
+    background:black;
+    color:white;
+    margin:1%;
+    font-size:40px;
+}
+/* media query : it use to find window/screen width in px */
+
+@media screen and (min-width:1px) and (max-width:700px) {
+    body{
+        background:orange !important;
+
+    }
+    .myblock{
+        width:48% !important;
+    }
+    #header{
+        display:none !important;
+    }
+}
+
+/* ################################################## */
+
+@media screen and (min-width:701px) and (max-width:900px){
+    body{
+        background:lightgreen !important;
+    }
+    .myblock{
+        width:31.33% !important;
+    }
+
+    #header{
+        background:red !important;
+    }
+}
